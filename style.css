@@ -9,3 +9,113 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: your-text-domain
 */
+
+
+
+#masthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(45deg, #FF0000, #000000);
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-left: -8px;
+    font-family: Helvetica;
+   
+    
+  }
+  
+  #masthead div ul {
+    list-style: none;
+    display: flex; 
+    
+  }
+  
+  #masthead div ul li {
+    margin-right: 20px; 
+    position: relative;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+  }
+  
+  #masthead div ul li a:hover {
+    color: rgb(0, 0, 0); 
+    text-decoration: underline;
+    transition: 0.3s ease;
+  }
+  
+ 
+  #masthead div ul li a {
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s ease;
+    
+    
+  }
+  
+  #masthead div ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -10px;
+    bottom: 0;
+    width: 1px;
+    background-color: #fff;
+    
+  }
+
+  .custom-logo {
+    display: flex;
+    float: left; 
+    margin-right: 10px;
+    width: 100px; 
+    height: auto;
+    
+    
+  }
+
+  .menu-item {
+    
+  white-space: nowrap;
+    display: inline; 
+  }
+
+.menu-main-menu-container {
+    align-items: center;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+header {
+  background-color: #f1f1f1; /* Change this to your desired background color */
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
