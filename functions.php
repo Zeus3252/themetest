@@ -18,4 +18,9 @@ function register_my_menus() {
   } 
     add_action( 'wp_enqueue_scripts', 'files' );
   
+  //themetest customizer
+require_once get_template_directory() . '/inc/themetest-customizer.php';
+require_once get_template_directory() . '/dynamic-styles.php';
+
+
   ?>
