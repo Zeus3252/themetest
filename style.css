@@ -17,7 +17,6 @@ Text Domain: your-text-domain
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: linear-gradient(45deg, #FF0000, #000000);
     padding: 10px 20px;
     font-size: 30px;
     margin-left: -8px;
@@ -43,7 +42,7 @@ Text Domain: your-text-domain
   }
   
   #masthead div ul li a:hover {
-    color: rgb(0, 0, 0); 
+    color: #FFFFFF; 
     text-decoration: underline;
     transition: 0.3s ease;
   }
@@ -104,17 +103,15 @@ footer {
   background-color: #333333;
   text-align: center;
   padding: 20px;
-  
   bottom: 0;
   width: 100%;
-  color: white;
+
 }
 
 header {
-  background-color: #f1f1f1; /* Change this to your desired background color */
+  background-color: #f1f1f1; 
   text-align: center;
   padding: 20px;
-  
   top: 0;
   width: 100%;
 }
